@@ -16,6 +16,7 @@ body {
 	background-color: white;
 	padding: 2vw;
 	border-radius: 0.5vw;
+	box-shadow: 0vw 0.15vw 0.1vw #817D7F;
 }
 
 h1 {
@@ -23,13 +24,17 @@ h1 {
 	font-weight: 700;
 	color: #DD5555;
 	margin: 0;
+	font-size: 2vw;
 }
 
 h2 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	margin: 0;
 	color: #817D7F;
+	padding-top: 1vw;
+	text-align: center;
+	font-size: 1.7vw;
 }
 
 h3 {
@@ -37,6 +42,9 @@ h3 {
 	font-weight: 400;
 	margin: 0;
 	color: #817D7F;
+	padding-top: 1vw;
+	text-align: center;
+	font-size: 1.6vw;
 }
 
 p {
@@ -45,6 +53,8 @@ p {
 	margin: 0;
 	text-align: justify;
 	color: #817D7F;
+	font-size: 1.5vw;
+	padding-top: 1vw;
 }
 
 #profile {
@@ -69,6 +79,7 @@ button {
 	background-color: #DD5555;
 	padding: 1vw;
 	border-radius: 0.5vw;
+	margin-top: 1vw;
 }
 
 button a {
@@ -106,13 +117,32 @@ button a {
 	color: #817D7F;
 }
 
-#films img{
+#films h2 {
+	margin-bottom: 2.5vw;
+}
+
+#films img {
 	width: 7vw;
 	height: auto;
+	padding-top: 1vw;
 }
 
 .filmDescription {
 	display: flex;
+	padding-bottom: 3vw;
+}
+
+.filmText {
+	padding-left: 2vw;
+}
+
+#films {
+	margin-bottom: 2vw;
+}
+
+mark {
+	background-color: #EBEBEB;
+	color: #817D7F;
 }
 
 
