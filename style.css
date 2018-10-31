@@ -1,0 +1,123 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 27vw 46vw 27vw;
+	background-color: #EBEBEB;
+}
+
+.block {
+	grid-column-start: 2;
+	grid-column-end: 3; 
+	margin-top: 2vw;
+	background-color: white;
+	padding: 2vw;
+	border-radius: 0.5vw;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #DD5555;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	margin: 0;
+	color: #817D7F;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	margin: 0;
+	color: #817D7F;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	margin: 0;
+	text-align: justify;
+	color: #817D7F;
+}
+
+#profile {
+	text-align: center;
+}
+
+
+#profilePicture {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 10vw;
+	height: 10vw;
+	border: 0.5vw solid #EBEBEB;
+}
+
+#profilePicture img {
+	width: 100%;
+	height: auto;
+}
+
+button {
+	background-color: #DD5555;
+	padding: 1vw;
+	border-radius: 0.5vw;
+}
+
+button a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1vw;
+}
+
+#links {
+	display: flex;
+	padding: 5vw 2vw 5vw 2vw;
+	justify-content: center;
+}
+
+.linksClick {
+	width: 9vw;
+	text-align: center;
+	opacity: 0.4;
+}
+
+
+.linksClick i {
+	color: #817D7F;
+	width: 5vw;
+	font-size: 2vw;
+}
+
+.linksClick a {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.2vw;
+	color: #817D7F;
+}
+
+#films img{
+	width: 7vw;
+	height: auto;
+}
+
+.filmDescription {
+	display: flex;
+}
+
+
+
+
+
+
+
